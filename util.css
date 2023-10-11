@@ -1,0 +1,93 @@
+.join-container{
+    width: 100%;
+    height: 100vh;
+
+}
+.join-container p{
+    width: 60%;
+    margin: 30px;
+    font-size: 18px;
+}
+.join-container h3{
+    width: 60%;
+    margin: 30px;
+    font-weight: bold;
+}
+.join-container ol{
+    width: 60%;
+    margin-left:45px;
+
+}
+
+#contact1{
+ 
+    margin-top: 20px;
+    width: 100%;
+    height: 100vh;
+    
+}
+.right{
+    width: 40%;
+    float: right;
+
+}
+.right img{
+    position: relative;
+    width: 90%;
+    height: 55%;
+  
+}
+.left{
+    width: 50%;
+    height: 50%;
+}
+input{
+    width: 90%;
+    margin: 10px 0px 10px 30px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid grey;
+}
+.nav{
+    position: static;
+}
+
+#about{
+    display: flex;
+    /* height: 650px; */
+    width: 100%;
+    height: 80vh;
+    margin-top: 100px;
+}
+.card-x{
+    width: 50%;
+    height: 70vh;
+    
+}
+.card-x img{
+    width: 500px;
+    height: 400px;
+    margin-left: 135px;
+    margin-top: 20px;
+}
+.card-y p{
+    
+    margin: 12px;
+    font-family: 'AR One Sans', sans-serif;
+    padding:  0 80px;
+    justify-content: center;
+
+}
+h2{
+    background-color:  rgb(61, 65, 197);
+    width: 550px;
+    height: 40px;
+    text-align: center;
+    margin-top: 45px;
+    margin-left: 50px;
+    padding: 15px;
+    font-family: 'AR One Sans', sans-serif;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid black;
+}
