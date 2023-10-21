@@ -1,0 +1,93 @@
+body{
+  overflow-x: hidden;
+}
+
+.container{
+    flex-direction: column;
+    height: 290vh;
+}
+.project-card{
+    background-color: rgba(213, 248, 228, 0.411);
+    box-shadow: 5px 4px 6px 2px rgb(168, 163, 155);
+    width: 300px;
+    height: 350px;
+    /* background-color: rgb(255, 252, 252); */
+    border-radius: 8px;
+    margin: auto;
+ }
+ i{
+    margin: 5px;
+    font-size: 20px;
+  }
+  
+  .icon{
+     width: 100%;
+     height: 100%;
+    margin-left: 25%;
+  }
+  .download{
+    position: relative;
+    left: 10%;
+}
+.bt2{
+  margin-left: 10%;
+}
+
+
+
+    /* skill container */
+.skill-container{
+      background-color: lightblue;
+      height: 50vh;
+      width: 100vw;
+      display: flex;
+      padding: 5px;
+    
+    
+  }
+  .skill-left{
+      width: 40%;
+    
+  
+  }
+  .skill-left img{
+      width: 140px;
+      height: 170px;
+      position: relative;
+      top: 19%;
+      left: 2%;
+      border-radius: 15px;
+      opacity: 0.8;
+     
+      
+  }
+  .skill-right{
+    width: 55%;
+    padding-top: 60px;
+  }
+  .skill-right h2{
+    text-align: center;
+    margin: 5px;
+  
+  }
+  .skill-right p{
+    font-size: 15px;
+
+     }
+     .skill-right a{
+      background-color: black;
+      color: white;
+      text-decoration: none;
+      width: 100px;
+      border-radius: 5px;
+      padding: 8px 10px;
+      margin-left: 20%;
+      margin-top: 18%;
+  
+  }
+  
+  
+  .p1{
+    display: none;
+  }
+    

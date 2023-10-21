@@ -1,516 +1,280 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500;700&family=Balsamiq+Sans&family=Poppins:wght@100&family=Prata&display=swap');
-
-
-
 *{
     margin: 0;
     padding: 0;
 }
-html{
-    scroll-behavior: smooth;
-}
 body{
+    background-color: yellow;
     overflow-x: hidden;
 }
-
-
-/* --------------------------------------------------
-           START NAVBAR SECTION
--------------------------------------------------- */
-
-header{
+.navbar{
     position: sticky;
-    top: 0px;
+    top: 0;
 }
-nav{
-    background-color: #f8f8f8;
-    display: flex;
-    position: sticky;
-    top: 0px;
-    border-bottom: 0.5px solid #e7e7e7;
-}
-    
-nav img{
-    width: 350px;
-    height: 125px;
-    position: relative;
-    left: 10%;
-}
-ul {
-    list-style: none;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-ul li{
-    display: inline-block;
-    padding: 15px;
-    margin-top: 32px;
-    font-size: 18px;
-    position: relative;
-    left: 50%;
-    font-family: 'AR One Sans', sans-serif;
-    font-weight: bold;
-    cursor: pointer;
-}
-ul li a{
-   color: black;
-   text-decoration: none;
-   
-}
-button{
-  position: relative;
-  left: 20%;
-  width: 100px;
-  padding: 2px;
-  margin: 50px;
-  background-color: #4cae4c;
-  border-radius: 5px;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-button a{
-    text-decoration: none;
-    color: white;
-}
-ul li a:hover{
-    color: royalblue;
-    cursor: pointer;
+.navbar img{
+    border-radius: 50%;
 }
 
-/* --------------------------------------------------
-           START CONTAINER SECTION
--------------------------------------------------- */
-
-
-.container{
-    display: flex;
+#about img{
+display: block;
+margin: auto;
+margin-top: 100px;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+border: 5px solid #0dcaf0;
 }
-.box1{
-    width: 50%;
-    height: 75vh;
-     background-color: rgb(60, 152, 213);
-}
-.box2{
-    width: 50%;
-    height: 75vh;
-    background-color: orange;
-}
-h1{
-    font-size: 50px;
-    margin-top:200px;
-    margin-left: 125px;
-     font-family: 'AR One Sans', sans-serif;
-     color: white;
-}
-h5{
-    margin-top:20px;
-    margin-left: 125px;
-    font-size: 20px;
-
-}
-.h1{
-    color: black;
+i{
+  margin: 5px;
+  font-size: 20px;
 }
 
-
-/* --------------------------------------------------
-           START MAIN SECTION
--------------------------------------------------- */
-#about{
-    display: flex;
-    /* height: 650px; */
-    width: 100%;
-    height: 60vh;
-    margin-top: 100px;
-}
-.card-x{
-    width: 50%;
-    height: 70vh;
-    
-}
-.card-x img{
-    width: 600px;
-    height: 600px;
-    margin-left: 135px;
-    margin-top: 20px;
-}
-.card-y{
-    width: 50%;
-    height: 70vh;
-    
-}
-h2{
-    background-color:  rgb(61, 65, 197);
-    width: 550px;
-    height: 40px;
-    text-align: center;
-    margin-top: 45px;
-    margin-left: 115px;
-    padding: 15px;
-    font-family: 'AR One Sans', sans-serif;
-    color: white;
-    border-radius: 8px;
-    border: 1px solid black;
-}
-.card-y h4{
-    text-align: center;
-    margin: 12px;
-    font-size: 18px;
-    font-family: 'AR One Sans', sans-serif;
-
-}
-.card-y p{
-    
-    margin: 12px;
-    font-family: 'AR One Sans', sans-serif;
-    padding:  0 80px;
-    justify-content: center;
-
-}
-
-/* --------------------------------------------------
-           START SERVICES SECTION
--------------------------------------------------- */
-
-#service{
-    background-color: #3A56A1;
-    width: 100%;
-    height: 65vh;
-    margin-top : 80px;
-}
-#service h1{
-    position: relative;
-    left: 32%;
-   padding: 10px;
-   cursor: pointer;
-   
-  
-}
-.services{
-    display: flex;
-    padding: 0 25px;
-   
-}
-
-.c1{
-    background-color: rgb(211, 209, 209);
-    width:500px;
-    height: 280px;
-    margin:  0 15px;
-}
-.c2{
-    background-color: rgb(213, 209, 209);
-    width:500px;
-    height: 280px;
-    margin:  0 15px;
-}
-.c3{
-    background-color: rgb(224, 224, 224);
-    width:500px;
-    height: 280px;
-    margin:  0 16px;
-}
-.c1 h3{
-    font-size: 25px;
-    padding: 22px;   
-}
-.c1 p{
-    font-size: 18px;
-    padding: 5px 15px 25px 22px;   
-    justify-content: center;
-}
-.c2 h3{
-    font-size: 25px;
-    padding: 22px;   
-}
-.c2 p{
-    font-size: 18px;
-    padding: 5px 15px 25px 22px;   
-    justify-content: center;
-}
-.c3 h3{
-    font-size: 25px;
-    padding: 20px;   
-}
-.c3 p{
-    font-size: 18px;
-    padding: 2px 15px 34px 22px;   
-    justify-content: center;
-}
-.btn2{
-   background-color: royalblue;
-   padding: 10px;
-   font-size: 15px;
-   margin: 155px; 
-   align-items: center;  
-   border-radius: 5px;
-   text-decoration: none;
-  
-}
-.btn2 a{
-}
-.btn2:hover{
-    background-color: rgb(90, 130, 154);
-}
-
-/* --------------------------------------------------
-           START INDUSTRY SECTION
--------------------------------------------------- */
-
-#industry{
-    width: 100%;
-    height: 100vh;
-    margin-top: 75px;
-    
-}
-.work{
-    text-align: center;
-    padding: 25px;
-    font-size: 32px;
-    font-family: 'AR One Sans', sans-serif;
-    font-weight: bold;
-}
-.card1.card2.card3.card4.cad5.card6.card7.card8,img{
-    width: 250px;
-    height: 155px;
-}
-.card{
-    display: inline-block;
-    margin: 10px  5px 20px 60px;
-    position: relative;
-    left: 3%;
-    border: 1px solid rgb(127, 125, 125);
-    overflow: hidden;
-   
-}
-.card p{
-    text-align: center;
-    background-color: rgba(204, 195, 195, 0.56);
-    font-family: 'AR One Sans', sans-serif;
-    padding: 8px;
-    margin: -5px 0 0 0;
-}
-.btn3{
-    background-color: royalblue;
-    padding: 10px;
-    position: relative;
-    top: 30px;
-    margin-left: 48%;
-    margin-top: 80%; 
-    align-items: center;  
-    border-radius: 5px;
-    text-decoration: none;
-   
- }
- 
- a{
-    color: white;
- }
- .card img:hover{
-    transform: scale(1.1);
-    transition: 0.5s all ease-in-out;
- }
-
- /* --------------------------------------------------
-           START MAP SECTION
--------------------------------------------------- */
-
-
-#coverage img{
-    width: 80%;
-    height: 600px;
-    position: relative;
-    left: 11%;
-
-}
-
- /* --------------------------------------------------
-           START Conatct Us SECTION
--------------------------------------------------- */
-
-
-#contact{
-    background-color: royalblue;
-    margin-top: 20px;
-    width: 100%;
-    height: 100vh;
-    
-}
-.right{
-    width: 40%;
-    float: right;
-
-}
-.right img{
-    position: relative;
-    bottom: 250px;
-    width: 90%;
-    height: 55%;
-  
-}
-.left{
-    width: 50%;
-    height: 50%;
-}
-input{
-    width: 90%;
-    margin: 10px 0px 10px 30px;
-    padding: 10px;
-    border-radius: 6px;
-    border: none;
-}
-textarea{
-    width: 90%;
-    margin: 10px 0px 10px 30px; 
-    padding: 10px;
-    border-radius: 6px;
-    border: none;
-}
-.form-bt{
-    /* position: relative; */
-  /* left: 15%; */
-  width: 45%;
-  padding: 10px;
-  margin: 10px 0px 10px 30px; 
-  background-color: #4cae4c;
-  border-radius: 5px;
-  color: white;
-  border: none;
-  cursor: pointer;
-
-}
-.form-bt:hover{
-    background-color: rgb(71, 182, 91);
-
-}
-.work1{
-    color: white;
-}
-
-/* --------------------------------------------------
-           START FOOT SECTION
--------------------------------------------------- */
-
-#foot{
-    background-color: #f8f8f8;
-    border-top: 0.5px solid #e7e7e7;
- display: flex;
- width: 100%;
- height: 250px;
-}
-.container-1{
-    display: flex;
-    width: 50%;
-    height: 220px;
-}
-.b1 img{
-    width: 300px;
-    height: 110px;
-    margin:52px;
-}
-.b2{
-   
-    margin:52px;
-    
-}
-.b2 h4{
-  
-    width: 80px;
-    font-size: 20px;
-    font-family: 'AR One Sans', sans-serif;
-    border-bottom: 2px solid rgb(247, 161, 41);
-}
-.b2 p{
-    display: block;
-    
-   
-}
-
-
-.b2 li{
-    list-style: none;
-    padding: 5px;
-      
-}
-.b2 li a{
-
-    font-family: 'AR One Sans', sans-serif;
-    color:#F20C78;
-    font-size: 14px;
-    font-weight: bold;
-    
-   
-}
-   
-.container-2{
-    display: flex;
-    width: 50%;
-    height: 300px;
-}
-.b3 h4{
-    font-size: 20px;
-    font-family: 'AR One Sans', sans-serif;
-    border-bottom: 2px solid orange;
-    width: 80px;
- 
-
-}
-.b3{
-    margin: 52px;
-}
-
-.b3 p{
-    padding: 15px;
-    font-size: 18px;
-    font-family: 'AR One Sans', sans-serif;
-    color:#F20C78;
-}
-.b4{
-    margin: 52px;
-
-}
-.b4 h4{
-    font-size: 20px;
-    font-family: 'AR One Sans', sans-serif;
-    border-bottom: 2px solid orange;
-    width: 80px;
-}
-.b4 p{
-    padding: 15px;
-    font-size: 18px;
-    font-family: 'AR One Sans', sans-serif;
-    color:#F20C78;
-}
 .icon{
-    font-size: 28px;
+   width: 100%;
+   height: 100%;
+  margin-left: 44%;
 }
 .fa-facebook{
     color: blue;
 }
 .fa-instagram{
-    color: rgb(237, 109, 23);
+    color: red;
 }
 .fa-twitter{
-    color: green;
+    color: rgb(37, 105, 251);
 }
 .fa-linkedin{
-    color: blue;
+    color: rgb(64, 40, 86);
+}
+#about h2,h3{
+    text-align: center;
+    margin: 10px;
+    font-family: orbitron;
+    font-weight: 600;
+   
 }
 .fa-youtube{
     color: red;
 }
+#about h2{
+  color: rgb(184, 123, 9);
+   
+}
+.card-body{
+    position: relative;
+    /* left: 5%; */
+    background-color: rgb(206, 234, 222);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 40vh;
+}
+.card1{
+    margin: 20px;
+    height: 50vh;
+}
 
-/* --------------------------------------------------
-           START FOOT SECTION
--------------------------------------------------- */
 
-footer{
-    background-color: black;
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    word-wrap: wrap;
+  
+}
+.h2{
     text-align: center;
-    font-size: 15px;
-    height: 50px;
-    padding-top: 28px;
+     margin: 15px;
+     padding: 30px;
+     font-family: orbitron;
+}
+ 
+.project-card{
+   background-color: rgba(215, 231, 222, 0.55);
+    box-shadow: 5px 4px 6px 2px rgb(225, 222, 217);
+    border: 0.5px solid rgb(255, 234, 234);
+   width: 300px;
+   height: 350px;
+   /* background-color: rgb(212, 71, 71); */
+   border-radius: 8px;
+   margin: 10px;
+   transition: 0.4s all ease-in;
+}
+.project-card img{
+   position: relative;
+   margin-left: 7%;
+   margin-top: 5%;
+   border-radius: 12px;
+  width: 250px;
+  height: 140px;
+}
+.project-card h2{
+   position: relative;
+   margin-top: 4%;
+   margin-left: 13%;
+  
+}
+.project-card p{
+   margin-left: 25px;
+   
+  
+}
+.project-card a{
+   position: relative;
+   margin-left: 25%;
+   margin-top: 1%;
+   background-color: black;
+   padding: 6px 30px;
+  text-decoration: none;
+  color: white;
+  border-radius: 6px;
+  
+}
+.project-card a:hover{
+    background-color: grey;
+ 
+ }
+ .project-card:hover{
+  transform: scale(1.05);
+ 
+ }
+.bt2{
+    margin-left: 39%;
+}
+.bt2 i{
+    color: rgb(217, 187, 103);
+}
+   .cv{
+    border: 2px solid black;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 4px;
+    color: black;
+   }
+
+ form{
+    margin: 15px;
+ }
+ h5{
+    text-align: center;
+    font-size: 5rem;
+    padding: 10px;
+    color: red;
+ }
+
+
+ /* container */
+
+ 
+ footer{
+    background-color: #000000;
+    height: 100px;
+   margin-top: 50px;
+    
+
+ }
+ footer p{
+    text-align: center;
     color: white;
+    opacity: 0.5;
+    top: 15px;
+    padding-top: 35px;
+ }
+    
+
+.download{
+    position: relative;
+    left: 40%;
+    margin: 20px 0px;
+}
+.bt{
+    background: none;
+    border:1.7px solid rgb(12, 11, 9);
+    padding: 5px 15px;
+    color: rgb(29, 24, 14);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   border-radius: 5px;
+}
+.bt:hover{
+    background-color: rgba(1, 252, 168, 0.827);
+}
+.cv:hover{
+    background-color: rgba(1, 252, 168, 0.827);
+    
+}
+/* .bt1{
+    background-color: #0dcaf0;
+    padding: 3px;
+    width: 140px;
+} */
+.bt i{
+    font-size: 18px;
+}
+
+
+/* conatct -card */
+.contact-card{
+    background-color: rgba(98, 220, 180, 0.387);
+    margin: 10px 25px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 6px grey;
+    height: 80vh;
+}
+.btn{
+    margin: 35px 0px;
+}
+
+    /* skill container */
+.skill-container{
+    background-color: lightblue;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    padding: 30px;
+    margin-top: 50px;
+  
+}
+.skill-left{
+    width: 45%;
 
 }
+.skill-left img{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 15%;
+    left: 30%;
+    border-radius: 15px;
+    opacity: 0.8;
+   
+    
+}
+.skill-right{
+    width: 45%;
+}
+.skill-right h2{
+    font-family: orbitron;
+    color: rgb(33, 30, 25);
+ margin-top: 155px;
+ margin-left: 170px;
+}
+.skill-right p{
+  padding:  0px 25px;
+  font-size: 18px;
+   }
+
+.skill-right a{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    width: 300px;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin-left: 35%;
+    margin-top: 18%;
+
+}
+
+.skill-right a:hover{
+    background-color: grey;
+ 
+}
+  
